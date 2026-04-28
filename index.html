@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobo's Guest House — Candolim, Goa</title>
+    <meta name="description" content="A refined retreat in Candolim, North Goa. Steps from the beach, steeped in Goan character. Book direct for the best rates.">
+    <link rel="stylesheet" href="lobos_css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ── Floating WhatsApp ────────────────────────────── -->
+    <a href="https://wa.me/447417520493" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <!-- ── Hamburger Toggle (always visible on hero) ────── -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+
+    <!-- ── Hero Navigation ──────────────────────────────── -->
+    <nav class="nav-hero" id="heroNav">
+        <div class="nav-hero-inner">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Lobo's Guest House" id="navLogo">
+            </div>
+            <div class="nav-contact">
+                <a href="#contact" class="nav-contact-link">Reserve a Room</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ── Main Navigation ──────────────────────────────── -->
+    <nav class="nav-main" id="mainNav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- ══════════════════════════════════════════════════
+         HERO
+    ══════════════════════════════════════════════════ -->
+    <section id="home" class="hero">
+        <div class="hero-bg" id="heroBg"></div>
+
+        <div class="hero-content">
+            <span class="hero-eyebrow">Candolim · North Goa · India</span>
+            <h1>Lobo's<br><em>Guest House</em></h1>
+            <div class="hero-divider"></div>
+            <p class="hero-tagline">A home away from home</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn-primary">Reserve Your Stay</a>
+                <a href="#rooms" class="btn-outline">Explore Rooms</a>
+            </div>
+        </div>
+
+        <div class="hero-scroll">
+            <span>Discover</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════
+         WELCOME STRIP
+    ══════════════════════════════════════════════════ -->
+    <div class="welcome-strip reveal">
+        <span class="eyebrow">Welcome</span>
+        <h2>"Where every guest is family, and every evening feels like coming home."</h2>
+        <p>Tucked away on a quiet lane moments from Candolim Beach, Lobo's Guest House offers a rare combination of genuine Goan warmth and thoughtful comfort.</p>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════════
+         ROOMS
+    ══════════════════════════════════════════════════ -->
+    <section id="rooms">
+        <span class="section-label reveal">Accommodation</span>
+        <h2 class="section-title reveal">Our <em>Rooms</em></h2>
+        <div class="section-rule reveal"></div>
+
+        <div class="room-showcase">
+            <!-- Slideshow -->
+            <div class="room-slideshow reveal">
+                <div class="slideshow-container">
+                    <div class="slide fade active">
+                        <img src="images/room1.jpg" alt="Room — Lobo's Guest House">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/room2.jpg" alt="Room Interior">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/room3.jpg" alt="Room Bathroom">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/room4.jpg" alt="Room Balcony">
+                    </div>
+                    <div class="slide fade">
+                        <img src="images/room5.jpg" alt="Room Details">
+                    </div>
+                    <a class="prev" onclick="changeSlide(-1)" aria-label="Previous">&#8592;</a>
+                    <a class="next" onclick="changeSlide(1)" aria-label="Next">&#8594;</a>
+                </div>
+                <div class="dots-container">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+            </div>
+
+            <!-- Room Info -->
+            <div class="room-info-box reveal reveal-delay-2">
+                <h3>Comfort Meets<br><em>Goan Character</em></h3>
+                <p class="room-description">
+                    Our rooms are designed for rest and simplicity — bright, airy spaces with tiled floors, soft natural light, and everything you need to settle in and slow down. Each comes with a private balcony overlooking the gardens, and the kind of quiet that's hard to find near the beach.
+                </p>
+
+                <span class="room-features-label">Included in every room</span>
+                <ul class="amenities">
+                    <li>Air Conditioning</li>
+                    <li>Free Wi-Fi</li>
+                    <li>Private Balcony</li>
+                    <li>Ensuite Bathroom</li>
+                    <li>Kitchenette</li>
+                    <li>Hot Water</li>
+                    <li>Daily Housekeeping</li>
+                    <li>Comfortable Beds</li>
+                    <li>TV & Media</li>
+                </ul>
+
+                <div class="pricing-info">
+                    <span class="price-from">Starting from</span>
+                    <span class="room-price">₹1,200 / night</span>
+                    <a href="#contact" class="btn-dark">Check Availability</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════
+         GALLERY
+    ══════════════════════════════════════════════════ -->
+    <section id="gallery">
+        <span class="section-label reveal">Visual Tour</span>
+        <h2 class="section-title reveal">The <em>Property</em></h2>
+        <div class="section-rule reveal"></div>
+        <p class="section-intro reveal">A glimpse into life at Lobo's — the rooms, the gardens, and the beach that's never far away.</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-item reveal">
+                <img src="images/gallery1.jpg" alt="Guest House Exterior">
+                <div class="gallery-caption"><span>The Building</span></div>
+            </div>
+            <div class="gallery-item reveal reveal-delay-1">
+                <img src="images/gallery2.jpg" alt="Room Interior">
+                <div class="gallery-caption"><span>Room Interior</span></div>
+            </div>
+            <div class="gallery-item reveal reveal-delay-2">
+                <img src="images/gallery3.jpg" alt="Balcony View">
+                <div class="gallery-caption"><span>Balcony Views</span></div>
+            </div>
+            <div class="gallery-item reveal reveal-delay-1">
+                <img src="images/gallery4.jpg" alt="Common Area">
+                <div class="gallery-caption"><span>Common Areas</span></div>
+            </div>
+            <div class="gallery-item reveal reveal-delay-2">
+                <img src="images/gallery5.jpg" alt="Garden">
+                <div class="gallery-caption"><span>The Garden</span></div>
+            </div>
+            <div class="gallery-item reveal reveal-delay-3">
+                <img src="images/gallery6.jpg" alt="Candolim Beach">
+                <div class="gallery-caption"><span>Candolim Beach</span></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════
+         LOCATION
+    ══════════════════════════════════════════════════ -->
+    <section id="location">
+        <span class="section-label reveal">Getting Here</span>
+        <h2 class="section-title reveal">Find <em>Us</em></h2>
+        <div class="section-rule reveal"></div>
+
+        <div class="location-grid">
+            <div class="map-container reveal">
+                <iframe
+                    class="map-iframe"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2833.7698953699605!2d73.76320798330845!3d15.521786099688255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc190f422d1a9%3A0xf89a77b1a9aaa98d!2sLobo&#39;s%20Guest%20House!5e0!3m2!1sen!2suk!4v1769039696023!5m2!1sen!2suk"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Lobo's Guest House on Google Maps">
+                </iframe>
+            </div>
+
+            <div class="location-info reveal reveal-delay-2">
+                <h3>Candolim,<br><em>North Goa</em></h3>
+                <span class="address">863 Camotim Rd, Vaddo, Candolim, Goa 403515</span>
+                <p>Nestled on a quiet residential lane in Candolim, we're ideally placed for exploring the best of North Goa — minutes on foot to the beach, and easy access to Fort Aguada, Calangute, and the airport.</p>
+
+                <ul class="nearby-list">
+                    <li>
+                        <div class="nearby-icon">🏖️</div>
+                        <div>
+                            <strong>Candolim Beach</strong>
+                            <span>3-minute walk</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nearby-icon">🏰</div>
+                        <div>
+                            <strong>Fort Aguada</strong>
+                            <span>15-minute drive</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nearby-icon">🛍️</div>
+                        <div>
+                            <strong>Calangute Market</strong>
+                            <span>10-minute drive</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="nearby-icon">✈️</div>
+                        <div>
+                            <strong>Goa International Airport</strong>
+                            <span>55-minute drive</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════
+         CONTACT & BOOKING
+    ══════════════════════════════════════════════════ -->
+    <section id="contact">
+        <span class="section-label reveal">Get in Touch</span>
+        <h2 class="section-title reveal">Reserve Your <em>Room</em></h2>
+        <div class="section-rule reveal"></div>
+
+        <div class="contact-layout">
+            <!-- Left: contact methods -->
+            <div class="contact-left reveal">
+                <h3>We'd love<br>to have you.</h3>
+                <p>Reach out via WhatsApp for the fastest response, or fill in the booking form and we'll get back to you within 24 hours.</p>
+
+                <div class="contact-methods">
+                    <a href="https://wa.me/447417520493" class="contact-method" target="_blank" rel="noopener">
+                        <div class="contact-method-icon">
+                            <img src="images/whatsapp2.png" alt="WhatsApp" style="width:22px;height:22px;object-fit:contain;">
+                        </div>
+                        <div class="contact-method-text">
+                            <strong>WhatsApp</strong>
+                            <span>Quickest response · Our preferred method</span>
+                        </div>
+                    </a>
+                    <a href="mailto:lobosguesthousecandolim@gmail.com" class="contact-method">
+                        <div class="contact-method-icon">✉️</div>
+                        <div class="contact-method-text">
+                            <strong>Email</strong>
+                            <span>lobosguesthousecandolim@gmail.com</span>
+                        </div>
+                    </a>
+                    <a href="tel:+447417520493" class="contact-method">
+                        <div class="contact-method-icon">📞</div>
+                        <div class="contact-method-text">
+                            <strong>Phone</strong>
+                            <span>+44 7417 520 493</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right: booking form -->
+            <div class="booking-form reveal reveal-delay-2">
+                <h3>Booking Enquiry</h3>
+                <span class="form-subtitle">Complete the form and we'll confirm availability promptly.</span>
+
+                <form id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone / WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+44 ..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Guests</label>
+                            <input type="number" id="guests" name="guests" min="1" max="10" placeholder="2" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="checkin">Check-in</label>
+                            <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Check-out</label>
+                            <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Special Requests</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Any special requirements or questions?"></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">Send Booking Enquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════
+         FOOTER
+    ══════════════════════════════════════════════════ -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="images/logo.png" alt="Lobo's Guest House">
+                <p>A family-run guest house in the heart of Candolim, North Goa. Simple, honest, and full of warmth.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <div class="footer-contact-item">
+                    <strong>Address</strong>
+                    <span>863 Camotim Rd, Vaddo,<br>Candolim, Goa 403515</span>
+                </div>
+                <div class="footer-contact-item">
+                    <strong>WhatsApp / Phone</strong>
+                    <a href="tel:+447417520493">+44 7417 520 493</a>
+                </div>
+                <div class="footer-contact-item">
+                    <strong>Email</strong>
+                    <a href="mailto:lobosguesthousecandolim@gmail.com">lobosguesthousecandolim@gmail.com</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <span>&copy; 2026 Lobo's Guest House. All rights reserved.</span>
+            <div class="social-links">
+                <a href="https://www.instagram.com/lobosguesthouse/" target="_blank" rel="noopener">Instagram</a>
+                <a href="https://wa.me/447417520493" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+            <span>Site by @designedbylobo</span>
+        </div>
+    </footer>
+
+
+    <script src="lobos_js.js"></script>
+</body>
+</html>
